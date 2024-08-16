@@ -36,5 +36,11 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-# Backend
-backend.tf
+# Ignore S3 credentials file
+s3_credentials.json
+
+# Ignore S3 related logs
+s3_upload_logs/
+
+# Ignore environment configuration
+.env
