@@ -36,5 +36,5 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-# Backend.tf
+# Backend
 backend.tf
